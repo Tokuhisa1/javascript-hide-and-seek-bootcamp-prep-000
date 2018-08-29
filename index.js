@@ -3,7 +3,7 @@
 const getFirstSelector = selector => document.querySelector(selector);
 // Define a function nestedTarget() that pulls a .target out of #nested
 const nestedTarget = () => document.querySelector(".target");
-// Passing in "#nested" results in a false positive
+// Passing in "#nested" [by itself] results in a false positive
 
 // Define a function deepestChild() that pulls out the most deeply nested child
 // from div#grand-node.
